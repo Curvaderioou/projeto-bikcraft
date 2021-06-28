@@ -1,0 +1,286 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .container {
+    width: 768px;
+  }
+  /*Qualidade Linhas*/
+  .qualidade:after {
+    content: "";
+    width: 618px;
+    height: 79px;
+    display: block;
+    background: url("../img/linhas.svg.svg") no-repeat center;
+    position: absolute;
+    top: 143px;
+    right: 75px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  /*redes sociais*/
+  .footer_redesocial ul li a {
+    border: 3px solid #f9c139;
+    display: block;
+    padding: 3px;
+    margin-right: 10px;
+  }
+
+  .portfolio {
+    width: 100%;
+    background: black;
+    padding: 20px 0 80px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+    background: black;
+    padding: 20px 0 60px 0;
+  }
+
+  /*Produtos*/
+
+  .produtos-item h2 {
+    top: -150px;
+  }
+
+  .icones-bike {
+    background: black;
+    padding: 41px 0;
+  }
+
+  .produtos-explicacao {
+    color: white;
+    background: black;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 20px;
+    padding: 18px 25px;
+    padding-bottom: 40px;
+  }
+
+  .caracteristicas li {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    float: left;
+    width: 182px;
+    height: 42px;
+    background: #f9c139;
+    text-align: center;
+    padding: 14px;
+  }
+}
+
+/*Estilo para mobile*/
+@media only screen and (max-width: 788px) {
+  .container {
+    width: 300px;
+  }
+
+  /*Header*/
+
+  .header_menu ul li a.menu-ativo {
+    border-color: white;
+  }
+  .header {
+    position: relative;
+  }
+  .header img {
+    margin: 0 auto;
+  }
+  .header_menu {
+    text-align: center;
+  }
+
+  .header ul li {
+    margin: 0;
+  }
+
+  .header_menu li {
+    margin: 0;
+  }
+  .header_menu li a {
+    border: 4px solid black;
+    display: block;
+    width: 120px;
+    margin: 5px;
+  }
+  .header_menu li a:hover {
+    border: 4px solid white;
+  }
+
+  /*Introdução*/
+  .introducao {
+    margin-top: 0px;
+    padding: 50px;
+    background: url(../img/bg_homembl.jpg.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  .introducao h1 {
+    font-size: 40px;
+  }
+
+  .introducao .quote-externo {
+    margin-bottom: 28px;
+  }
+
+  .produtos {
+    padding: 30px 0;
+  }
+
+  .qualidade:after {
+    display: none;
+  }
+
+  .qualidade {
+    margin-top: 20px;
+  }
+
+  .qualidade_lista {
+    padding-top: 10px;
+  }
+
+  .portfolio {
+    width: 100%;
+    background: black;
+    padding: 20px 0 40px 0;
+  }
+
+  .call {
+    padding-top: 30px;
+  }
+
+  .qualidade .call a {
+    margin-bottom: 10px;
+  }
+  .qualidade_lista p {
+    padding: 5px 10px 10px 10px;
+  }
+  /*Sobre*/
+
+  .introducao-interna {
+    width: 100%;
+    margin-top: 0px;
+    height: 160px;
+    background-size: cover;
+  }
+
+  .historia-sobre h2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 30px 10px 10px 0;
+  }
+
+  .missao-valores h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding: 30px 10px 10px 0;
+  }
+
+  .missao-sobre h2:after {
+    content: "";
+    display: block;
+    background: black;
+    width: 60px;
+    height: 3px;
+    margin-top: 5px;
+  }
+
+  .historia-sobre h2:after {
+    content: "";
+    display: block;
+    background: black;
+    width: 60px;
+    height: 3px;
+    margin-top: 5px;
+  }
+
+  .historia-sobre p,
+  .missao-valores ul li {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .equipe-sobre {
+    margin-top: 160px;
+  }
+
+  /*Produtos*/
+
+  .produtos-item h2 {
+    top: -100px;
+  }
+
+  .icones-bike {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .produtos-explicacao {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .caracteristicas li {
+    font-size: 16px;
+    float: left;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 6px;
+  }
+
+  /*Formulario*/
+
+  .form textarea {
+    width: 300px;
+  }
+  .form input {
+    width: 300px;
+  }
+
+  .subtitulo-orcamento ul li {
+    line-height: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .subtitulo-orcamento ul li:nth-of-type(5) {
+    margin-bottom: 25px;
+  }
+
+  .subtitulo-orcamento:nth-of-type(1) {
+    margin-top: -40px;
+  }
+
+  .form-contato textarea {
+    width: 300px;
+  }
+  .form-contato input {
+    width: 300px;
+  }
+  .mapactt {
+    padding-bottom: 60px;
+  }
+
+  .mapacontato {
+    margin-bottom: 50px;
+  }
+
+  .subtitulo-contato {
+    padding-top: 20px;
+  }
+}
